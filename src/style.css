@@ -12,8 +12,62 @@ body {
 	padding: 0px;
 }
 
-.headerLogo {
+
+
+
+/* header */ 
+
+header {
+  background-image: url(/img/mainbackground.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 0;
+  padding-bottom: 12rem;
+  padding-top: 10rem;
+  clear: both;
+  min-height: 90vh;
 }
+
+.navbar {
+  margin-top:-180px; 
+  padding-top:10px;
+}
+
+.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+  font-size: 18px;
+}
+
+.navbar-nav {
+  padding: 0px;
+}
+
+.navbar li {
+  list-style-type: none;
+  padding:0px;
+}
+
+.bg-dark {
+  background-color: transparent !important;
+}
+
+
+
+/* header ends */
+
+/* intro */
+
+
+
+
+.social-part .fa{
+  padding-right:20px;
+}
+ul li a{
+  margin-right: 20px;
+}
+
+
 
 /* CSS below */
 
