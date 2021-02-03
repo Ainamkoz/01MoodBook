@@ -12,8 +12,9 @@ body {
 	padding: 0px;
 }
 
-
-
+h3 {
+	font-size: 3.5rem;
+}
 
 /* header */ 
 
@@ -66,7 +67,6 @@ header {
 ul li a{
   margin-right: 20px;
 }
-
 
 
 /* CSS below */
