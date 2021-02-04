@@ -18,10 +18,12 @@
 	
     <header>
 		
-
-		<nav class="navbar navbar-expand-xl navbar-dark bg-dark justfy-content-center ">
-			<a class="navbar-brand headerLogo" href="#"> <img src="img/logo_sample.svg" width="60" height="60" alt=""/> MOOD COOK </a> 
-			<div class="container-fluid">
+		<div class="container-fluid">
+			<a class="navbar-brand d-flex justify-content-center align-items-center" href="#"> <img src="img/logo_sample.svg" class="img-responsive" width="60" height="60" alt=""/> 
+				<span class="text-uppercase font-weight-bold">Mood Cook</span></a>
+			</div>
+			<div class="container">
+		<div class="navbar navbar-expand-lg navbar-dark bg-dark ">
 			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			  </button>
@@ -40,7 +42,7 @@
 				</ul>
 			  </div>
 			  <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
-				<ul class="navbar-nav">
+				<ul class="navbar-nav mx-auto">
 				  <li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 					  Sad
@@ -54,7 +56,7 @@
 				</ul>
 			  </div>
 			  <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
-				<ul class="navbar-nav">
+				<ul class="navbar-nav mx-auto">
 				  <li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 					  Lonely
@@ -68,7 +70,7 @@
 				</ul>
 			  </div>
 			  <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
-				<ul class="navbar-nav">
+				<ul class="navbar-nav mx-auto ">
 				  <li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 					  Passionate
@@ -80,17 +82,15 @@
 					</ul>
 				  </li>
 				</ul>
-			  </div>
+			</div>
 			  <ul class="navbar-nav sm-icons">
 				<li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-facebook-f"></i></a></li>
 				<li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-instagram"></i></a></li>
 				<li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-twitter"></i></a></li>
 				<li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-pinterest-p"></i></a></li>
 			</ul>
-			</div>
+		</div>
 		  </nav>
-	
-
 
 		  <div class="bg">
 			<input type="text" placeholder="Find your favourite recipe..."/>
@@ -100,110 +100,149 @@
 	</header>
 	
 		<!-- Michael -->
-		<main class="container-main">
+		<main>
 			<div class="flex-img">
 				<div class="container-img1">
 					<img src="img/funny ella-olsson unsplash.jpg" alt="funny kitchen" />
-					<h3>Funny Recipes</h3>
+					<div class="overlay">Funny Recipes</div>
 				</div>
 				<div class="container-img2">
 					<img src="img/sad jagjit-singh unsplash.jpg" alt="sad kitchen" />
-					<h3>Sad Recipes</h3>
+					<div class="overlay">Sad Recipes</div>
 				</div>
 				<div class="container-img2">
 					<img
 						src="img/passionate lasse-bergqvist unsplash.jpg"
 						alt="passionate kitchen"
 					/>
-					<h3>Passionate Recipes</h3>
+					<div class="overlay">Passionate Recipes</div>
 				</div>
 				<div class="container-img1">
 					<img
 						src="img/lonely serise toa-heftiba unsplash.jpg"
 						alt="lonely kitchen"
 					/>
-					<h3>Lonely Recipes</h3>
+					<div class="overlay">Lonely Recipes</div>
+				</div>
+				<div class="container-img3">
+					<img
+						src="img/seriouse s-o-c-i-a-l-c-u-t-u unsplash.jpg"
+						alt="seriouse kitchen"
+					/>
+					<div class="overlay-sm-height">Seriouse Recipes</div>
 				</div>
 			</div>
-			<section>
-				<div>
-					<form class="form" action="#" method="POST">
-						<label for="email">You are in the mood, than cook!</label>
-						<input
-							class="input-form"
-							type="email"
-							name="email"
-							id="email"
-							placeholder="Your email address"
-						/>
-						<button class="button-form" type="submit" value="submit">
-							Sign up
-						</button>
-					</form>
-				</div>
+			<section class="container-subscribe">
+				<forms class="forms" action="#" method="POST">
+					<label for="email"
+						>You are in the mood, than cook! Subscribe to our newsletter.</label
+					>
+					<input
+						type="email"
+						name="email"
+						id="email"
+						placeholder="Your email address"
+					/>
+					<button type="submit" value="submit">Sign up</button>
+				</forms>
 			</section>
 		</main>
+		<!-- End of Michael's-->
 
 		<!-- Carina -->
-		<footer class="site-footer">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-12 col-md-6">
-						<h6>About</h6>
-						<p class="text-justify">
-							Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative to
-							help the upcoming programmers with the code. Scanfcode focuses on
-							providing the most efficient code or snippets as the code wants to
-							be simple.
-						</p>
-					</div>
+		<footer>
+			<div class="bg-light text-center text-lg-start">
+				<!-- Grid container -->
+				<div class="container p-4 pb-0">
+					<form action="">
+						<!--Grid row-->
+						<div class="row">
+							<!--Grid column-->
+							<div class="col-auto mb-4 mb-md-0">
+								<p class="pt-2"><strong>Sign up for our newsletter</strong></p>
+							</div>
+							<!--Grid column-->
 
-					<div class="col-xs-6 col-md-3">
-						<h6>Categories</h6>
-						<ul class="footer-links">
-							<li><a href="#">C</a></li>
-							<li><a href="#">UI Design</a></li>
-							<li><a href="#">PHP</a></li>
-							<li><a href="#">Java</a></li>
-							<li><a href="#">Android</a></li>
-							<li><a href="#">Templates</a></li>
-						</ul>
-					</div>
+							<!--Grid column-->
+							<div class="col-md-5 col-12 mb-4 mb-md-0">
+								<!-- Email input -->
+								<div class="form-outline mb-4">
+									<input type="email" id="form5Example2" class="form-control" />
+									<label class="form-label" for="form5Example2"
+										>Email address</label
+									>
+								</div>
+							</div>
+							<!--Grid column-->
 
-					<div class="col-xs-6 col-md-3">
-						<h6>Quick Links</h6>
-						<ul class="footer-links">
-							<li><a href="#">About Us</a></li>
-							<li><a href="#">Contact Us</a></li>
-							<li><a href="#">Contribute</a></li>
-							<li><a href="#">Privacy Policy</a></li>
-							<li><a href="#">Sitemap</a></li>
-						</ul>
-					</div>
+							<!--Grid column-->
+							<div class="col-auto mb-4 mb-md-0">
+								<!-- Submit button -->
+								<button type="submit" class="btn btn-primary mb-4">
+									Subscribe
+								</button>
+							</div>
+							<!--Grid column-->
+						</div>
+						<!--Grid row-->
+					</form>
 				</div>
-				<hr />
+				<!-- Grid container -->
 			</div>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8 col-sm-6 col-xs-12">
-						<p class="copyright-text">
-							Copyright &copy; 2017 All Rights Reserved by
-							<a href="#">Scanfcode</a>.
-						</p>
-					</div>
 
-					<div class="col-md-4 col-sm-6 col-xs-12">
-						<ul class="social-icons">
-							<li>
-								<a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
-							</li>
-							<li>
-								<a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
-							</li>
-							<li>
-								<a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a>
-							</li>
-						</ul>
+			<div class="site-footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 col-md-6">
+							<h6>About</h6>
+							<p class="text-justify">
+								Mood-Recepies.com <i>COCK LIKE YOU FEEL</i> is an initiative
+								answer to feelings like "I feel stressed today. How can I change
+								that?" or " I am well. How can I keep it that way?". Very
+								easily! By preparing a pleasant meal that exactly suits your
+								mood. And we will help you with it.
+							</p>
+						</div>
+
+						<div class="col-xs-6 col-md-3">
+							<h6>Quick Links</h6>
+							<ul class="footer-links">
+								<li><a href="#">About Us</a></li>
+								<li><a href="#">Contact Us</a></li>
+								<li><a href="#">Contribute</a></li>
+								<li><a href="#">Privacy Policy</a></li>
+								<li><a href="#">Sitemap</a></li>
+							</ul>
+						</div>
+					</div>
+					<hr />
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 col-sm-6 col-xs-12">
+							<p class="copyright-text">
+								Copyright &copy; 2021 All Rights Reserved by
+								<a href="#">Mood-Recipies.com</a>.
+							</p>
+						</div>
+
+						<div class="col-md-4 col-sm-6 col-xs-12">
+							<ul class="social-icons">
+								<li>
+									<a class="facebook" href="#"
+										><i class="fa fa-facebook"></i
+									></a>
+								</li>
+								<li>
+									<a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
+								</li>
+								<li>
+									<a class="linkedin" href="#"
+										><i class="fa fa-linkedin"></i
+									></a>
+								</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>
