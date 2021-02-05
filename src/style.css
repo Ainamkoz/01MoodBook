@@ -19,6 +19,21 @@ h3 {
 /* header */
 
 header {
+<<<<<<< HEAD
+  background-image: url(/img/mainbg3.jpg);
+  background-position:top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 5px 20px;
+  clear: both;
+  height: 900px;
+  color:white;
+  margin-bottom:50px;
+}
+
+body > header > div:nth-child(1) > a > span {
+	color:#321A18;
+=======
 	background-image: url(/img/mainbackground.jpg);
 	background-position: center;
 	background-size: cover;
@@ -32,6 +47,7 @@ header {
 
 body > header > div:nth-child(1) > a > span {
 	color: white;
+>>>>>>> origin/main
 	font-weight: 300;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-size: 30px;
@@ -77,6 +93,26 @@ body
 }
 
 .navbar .navbar-nav .nav-link {
+<<<<<<< HEAD
+    color:#321A18;
+	font-size: 1.3em;
+	font-weight: 500;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	
+}
+.navbar .navbar-nav .nav-link:hover{
+    color: #fff;
+}
+
+#navbarNavDarkDropdown > ul > li > ul > li a {
+	color: #321A18;;
+}
+
+.sm-icons {
+	flex-direction: row;
+	
+  }
+=======
 	color: #fff;
 	font-size: 1.1em;
 	font-weight: 500;
@@ -90,6 +126,7 @@ body
 .sm-icons {
 	flex-direction: row;
 }
+>>>>>>> origin/main
 
 @media only screen and (max-width: 960px) {
 	.sm-icons .nav-item {
@@ -110,14 +147,19 @@ body
 	left: 0%;
 	height: 75%;
 	width: 100%;
-	color: white;
+	color: #fff;
 	font-size: 2rem;
 	font-weight: 900;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+<<<<<<< HEAD
+	font-family: "Renner",sans-serif;
+  }
+=======
 }
+>>>>>>> origin/main
 
 .bg input {
 	background: rgba(255, 255, 255, 0.322);
@@ -130,7 +172,11 @@ body
 	top: 250px;
 	margin: 0 auto;
 	padding: 10px;
+<<<<<<< HEAD
+	color:#321A18;
+=======
 	color: #fff;
+>>>>>>> origin/main
 	font-weight: 700;
 	border-radius: 25px;
 	-webkit-box-shadow: 0 2px 10px 1px rgba(0, 0, 0, 0.5);
@@ -148,6 +194,14 @@ body
 }
 :-ms-input-placeholder {
 	color: #666;
+}
+
+  .dropdown:hover > .dropdown-menu {
+    display: block;
+}
+.dropdown > .dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
 }
 
 /* header ends */
