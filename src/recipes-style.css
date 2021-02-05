@@ -1,0 +1,20 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* universal styles */
+
+body {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+main {
+	max-width: 992px;
+	margin: 0 auto;
+}
+
+/* Carousels */
