@@ -341,9 +341,7 @@ div#navbarNavDarkDropdown.collapse.navbar-collapse {
 	padding-left: 0;
 	list-style: none;
 }
-/*.footer-links li {
-	display: flex;*/
-}
+
 .footer-links a {
 	color: #737373;
 }
