@@ -470,6 +470,11 @@ main {
 	color: #3366cc;
 	text-decoration: none;
 }
+
+.nowrap {
+	white-space: nowrap;
+}
+
 .footer-links {
 	padding-left: 0;
 	list-style: none;
